@@ -2,6 +2,8 @@
 
 Ruiyi Zhang
 
+DOI: [10.5281/zenodo.23247753](https://doi.org/10.5281/zenodo.23247753)
+
 Let `N_1(X)` count the abc triples `(a,b,c)` in `[1,X]^3` with `rad(abc) < c`.
 The manuscript proves
 
@@ -30,3 +32,19 @@ exponent `7/12` for the box count; on each leaf the multipliers sum to at most `
 ## Checks
 
     cd anc && python3 verify_712_independent.py
+
+## Citation
+
+Ruiyi Zhang, *A primitive-ratio cut and a 7/12 bound for the abc exceptional set*, preprint, Zenodo, 2026. https://doi.org/10.5281/zenodo.23247753
+
+```bibtex
+@misc{zhang2026exceptional,
+  author    = {Zhang, Ruiyi},
+  title     = {A primitive-ratio cut and a 7/12 bound for the abc exceptional set},
+  year      = {2026},
+  publisher = {Zenodo},
+  note      = {Preprint},
+  doi       = {10.5281/zenodo.23247753},
+  url       = {https://doi.org/10.5281/zenodo.23247753}
+}
+```
