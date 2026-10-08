@@ -1,0 +1,228 @@
+{
+  "arithmetic": "fractions.Fraction only",
+  "certificate_audit": {
+    "cells": 8192,
+    "cells_needing_cuts": 424,
+    "certificate": "/tmp/final712-v3-replay-20261008/cert_leaves_tail.jsonl",
+    "distinct_cuts": 732,
+    "internal_nodes": 2628,
+    "kind_counts": {
+      "bound": 10820
+    },
+    "leaves": 10820,
+    "max_depth": 13,
+    "max_distinct_cuts_in_cell": 35,
+    "max_leaves": 42,
+    "meta": {
+      "family": "tail-extended (gencutloop7)",
+      "target": "7/12"
+    },
+    "minimum_coefficient_surplus": "0",
+    "sha256": "0a92f82f24e3dc4bca87f4592633baceebaa6a91423048561deb23b7031fd5e7",
+    "tight_leaf_count": 89,
+    "worst_bound": "7/12"
+  },
+  "imports_original_constructor": false,
+  "mutation_self_tests": {
+    "malformed_cell_rejected": "PASS",
+    "missing_branch_rejected": "PASS",
+    "negative_multiplier_rejected": "PASS",
+    "sign_mismatched_row_rejected": "PASS",
+    "wrong_target_detectable": "PASS"
+  },
+  "row_source": "BLT Proposition 6.1 eqs. (6.1)--(6.10) + documented tail/cut definitions",
+  "verifier": "/tmp/final712-v3-replay-20261008/verify_712_independent.py",
+  "verifier_sha256": "2e40f9527368c3d85b5553615f2445f81409bfe4c0a68267646d4e41ac4a2b75",
+  "witness_audits": [
+    {
+      "base": {
+        "static_tight_count": 14,
+        "static_tight_rows": [
+          "('L',)",
+          "('62', 'a')",
+          "('T7', 'a')",
+          "('63', 'b')",
+          "('T7', 'b')",
+          "('TV', 'b')",
+          "('62', 'c')",
+          "('63', 'c')",
+          "('T7', 'c')",
+          "('TV', 'c')",
+          "('64', 'a', 'b')",
+          "('F', 0, 0, 1)",
+          "('F', 0, 1, 1)",
+          "('F', 0, 2, 1)"
+        ],
+        "valid_disjunction_branches": [
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      "cuts": {
+        "argmin": [
+          "a",
+          [],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "candidate_count": 1560195,
+        "candidate_count_formula": "3*(64*64-1)*127 = 1560195",
+        "legacy_claim_1560510_is_arithmetic_error": true,
+        "minimum": "7/12",
+        "tight": 170335,
+        "tight_by_q": {
+          "1": 168271,
+          "2": 837,
+          "3": 884,
+          "4": 157,
+          "5": 93,
+          "6": 93
+        },
+        "tight_by_side": {
+          "a": 256,
+          "b": 57344,
+          "c": 112735
+        },
+        "tight_with_tail_modulus": 114864,
+        "violated": 0
+      },
+      "name": "docs/875 main witness"
+    },
+    {
+      "base": {
+        "static_tight_count": 14,
+        "static_tight_rows": [
+          "('L',)",
+          "('62', 'a')",
+          "('TV', 'a')",
+          "('62', 'b')",
+          "('63', 'b')",
+          "('T7', 'b')",
+          "('TV', 'b')",
+          "('63', 'c')",
+          "('T7', 'c')",
+          "('TV', 'c')",
+          "('64', 'a', 'c')",
+          "('F', 0, 1, 0)",
+          "('F', 0, 1, 1)",
+          "('F', 0, 1, 2)"
+        ],
+        "valid_disjunction_branches": [
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      },
+      "cuts": {
+        "argmin": [
+          "a",
+          [
+            3
+          ],
+          [],
+          [
+            4
+          ]
+        ],
+        "candidate_count": 1560195,
+        "candidate_count_formula": "3*(64*64-1)*127 = 1560195",
+        "legacy_claim_1560510_is_arithmetic_error": true,
+        "minimum": "7/12",
+        "tight": 227551,
+        "tight_by_q": {
+          "1": 225487,
+          "2": 837,
+          "3": 884,
+          "4": 157,
+          "5": 93,
+          "6": 93
+        },
+        "tight_by_side": {
+          "a": 57472,
+          "b": 112735,
+          "c": 57344
+        },
+        "tight_with_tail_modulus": 172080,
+        "violated": 0
+      },
+      "name": "opt_tail alternate-face witness"
+    }
+  ]
+}

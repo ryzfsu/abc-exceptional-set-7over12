@@ -1,0 +1,6 @@
+leaves=10820
+max_sum_lambda=18/7
+max_nonzero_rows=21
+maximizing_cell=[2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 1, 2]
+maximizing_path_depth=6
+relaxed_conclusion: D <= 7/12 + (18/7)*rho

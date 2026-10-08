@@ -1,0 +1,4 @@
+certificate: /tmp/final712-v3-replay-20261008/cert_leaves_tail.jsonl
+certificate_sha256: 0a92f82f24e3dc4bca87f4592633baceebaa6a91423048561deb23b7031fd5e7
+INDEPENDENT RECONSTRUCTION PASS: 8192 cells, 10820 leaves, exact worst=7/12
+CONCLUSION: every feasible nonnegative profile has D <= 7/12.

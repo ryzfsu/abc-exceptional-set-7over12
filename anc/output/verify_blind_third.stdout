@@ -1,0 +1,31 @@
+========================================================================
+BLIND THIRD VERIFIER  --  /tmp/final712-v3-replay-20261008/cert_leaves_tail.jsonl
+========================================================================
+  declared target                                      7/12
+  cells                                                8192
+  cells needing at least one cut (by path)             424
+  cells needing at least one cut (by used cut row)     424
+  leaves                                               10820
+  internal binary nodes                                2628
+  distinct cuts used (path keys)                       732
+  distinct cuts used (rows in lam)                     732
+  largest number of cuts in one cell                   35
+  largest number of leaves in one cell                 42
+  largest path depth                                   13
+  leaves with rhs exactly 7/12                         89
+  worst rhs                                            7/12
+  second-worst rhs                                     9154/15693
+  smallest componentwise surplus                       0
+  max over leaves of sum of multipliers                18/7
+  largest number of nonzero multipliers on a leaf      21
+  total multipliers in certificate                     126499
+  largest multiplier denominator                       29322517
+  leaves branching on a cut they never use             1717
+  distinct rows rebuilt                                1578
+  witness: cut instances scanned                       1560195
+  witness: minimum cut right-hand side                 7/12
+  witness: times the minimum is attained               170335
+------------------------------------------------------------------------
+ALL CHECKS PASS: every row rebuilt from the paper's formulas, every
+row valid on its leaf's cell and sign-cover arm, Farkas (6.2) holds
+at every leaf, and the cell/leaf tree is complete.
